@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="style/formulario.css"/>
     </head>
     <body>
-        <form action="RegistroInformacion" method="GET">
+        <form action="RegistroInformacion" method="POST">
             <section>
                 <header>
                     <h1>Create Account</h1>
@@ -67,13 +67,13 @@
                     <div>
                     <label for="hobbies">Hobbies</label>
                     <div>
-                    <input type="checkbox" id="hobbie" name="music" value="1">
+                    <input type="checkbox" id="hobbie" name="music" value="music">
                     <label for="male">Music</label>
-                    <input type="checkbox" id="hobbie" name="sport" value="2">
+                    <input type="checkbox" id="hobbie" name="sport" value="sport">
                     <label for="male">Sports</label>
-                    <input type="checkbox" id="hobbie" name="travel" value="3">
+                    <input type="checkbox" id="hobbie" name="travel" value="travel">
                     <label for="male">Travel</label>
-                    <input type="checkbox" id="hobbie" name="movie" value="4">
+                    <input type="checkbox" id="hobbie" name="movie" value="movie">
                     <label for="male">Movies</label>
                     </div>
                 </div>

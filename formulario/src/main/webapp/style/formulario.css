@@ -19,6 +19,9 @@ form label{
     font-size: 24px;
     color: #3dbc9f;
 }
+form input{
+    border-radius: 0.3rem;
+}
 form input[type="text"],[type="email"],[type="password"],[type="number"]{
     background-color: transparent; /* Fondo transparente */
     border: none; /* Sin borde */
@@ -27,6 +30,9 @@ form input[type="text"],[type="email"],[type="password"],[type="number"]{
     font-size: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra */
     transition: color 0.3s ease; /* Transición suave para el color */
+}
+form input[type="email"]{
+    width: 575px;
 }
 
 form input[type="submit"]{
