@@ -1,0 +1,196 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 oct 2024, 9:04:40 a.m.
+    Author     : jl4ma
+*/
+body{
+
+    background: #497282;
+}
+form{
+    background: #fefefe;
+    max-width: 680px;
+
+}
+form label{
+    font-size: 24px;
+    color: #3dbc9f;
+}
+form input[type="text"],[type="email"],[type="password"],[type="number"]{
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    color: rgba(0, 0, 0, 0.1); /* Texto muy claro */
+    outline: none; /* Sin borde de enfoque */
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+form input[type="submit"]{
+    background: #1bba94;
+    margin: 1rem 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-color: #20b88f;
+    border-radius: 0.5rem;
+    font-size: 20px;
+
+}
+form input[type="button"]{
+    background: #1bba94;
+    color: #fff;
+    border-color: #20b88f;
+    border-radius: 0.5rem;
+    font-size: 20px;
+
+}
+form input[type="file"] {
+    margin-top: 5px;
+    border-radius: 5px; /* Esquinas redondeadas */
+    background-color: white; /* Color de fondo blanco */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+/* Estilo para el texto del input file */
+form input[type="file"]::file-selector-button {
+    background-color: white; /* Fondo del botón */
+    color: black; /* Color del texto del botón */
+    border: 1px solid #ccc; /* Borde del botón */
+    border-radius: 5px; /* Esquinas redondeadas del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+form select{
+    padding: 10px; /* Espaciado interno del select */
+    width: 255px; /* Ancho del select */
+    font-size: 16px; /* Tamaño de la fuente */
+    border: 1px solid #ccc; /* Borde del select */
+    border-radius: 5px; /* Esquinas redondeadas */
+    background-color: #fff; /* Fondo del select */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+form section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+form section header{
+    background: #eef0f2;
+    border-color: grey;
+}
+form section header h1{
+    font-size: 30px;
+    color: #696b6a;
+
+}
+form section div{
+    padding: 1rem 2rem;
+}
+form section footer{
+    display: flex;
+    background: #eef0f2;
+    border-color: grey;
+    justify-content: flex-end;
+}
+.nombres{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: left;
+}
+.nombres div div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.email{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: left;
+}
+.email div div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.contra{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: left;
+}
+.contra div div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.actividades{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 7rem;
+    text-align: left;
+}
+.actividades div div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.actividades div div label{
+    color: #8b8683;
+    font-size: 20px;
+}
+.sourceYincome{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: left;
+}
+.sourceYincome div div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.fileYAge{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: left;
+}
+.fileYAge div div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.bio{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: left;
+}
+.bio div div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+input::placeholder {
+    color: #ededed; /* Color casi blanco con opacidad */
+}
